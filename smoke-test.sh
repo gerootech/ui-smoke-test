@@ -1,0 +1,1 @@
+./gradlew -Dtest.single=CustomTestSuite clean test

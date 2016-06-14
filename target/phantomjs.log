@@ -1,0 +1,39 @@
+[INFO  - 2016-06-14T18:31:47.826Z] GhostDriver - Main - running on port 41448
+[INFO  - 2016-06-14T18:31:48.100Z] Session [410bb620-325e-11e6-9580-c70dc28a2a80] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-06-14T18:31:48.100Z] Session [410bb620-325e-11e6-9580-c70dc28a2a80] - page.customHeaders:  - {}
+[INFO  - 2016-06-14T18:31:48.100Z] Session [410bb620-325e-11e6-9580-c70dc28a2a80] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-10.10 (Yosemite)-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-06-14T18:31:48.100Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 410bb620-325e-11e6-9580-c70dc28a2a80
+[ERROR - 2016-06-14T18:31:49.505Z] Session [410bb620-325e-11e6-9580-c70dc28a2a80] - page.onError - msg: Error: [$injector:modulerr] Failed to instantiate module ng due to:
+TypeError: 'undefined' is not an object (evaluating 'Function.prototype.bind.apply')
+    at instantiate (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:7)
+    at provider (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:6)
+    at http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:6
+    at forEach (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:6)
+    at http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:6
+    at http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:6
+    at invoke (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:7)
+    at runInvokeQueue (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:7)
+    at http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:7
+    at forEach (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:6)
+    at loadModules (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:7)
+    at createInjector (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:7)
+    at http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:6
+    at bootstrap (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:6)
+    at angularInit (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:6)
+    at http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:15
+    at trigger (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:12)
+    at defaultHandlerWrapper (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:6)
+    at http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:6
+http://errors.angularjs.org/1.5.6/$injector/modulerr?p0=ng&p1=TypeError%3A%20'undefined'%20is%20not%20an%20object%20(evaluating%20'Function.prototype.bind.apply')%0A%20%20%20%20at%20instantiate%20(http%3A%2F%2Fadmin%3AfXzegC3N9P%40lennox-zuul-gateway-dev.cfapps.io%2Fapp.5587cb42c0dab33a2ab7.js%3A7)%0A%20%20%20%20at%20provider%20(http%3A%2F%2Fadmin%3AfXzegC3N9P%40lennox-zuul-gateway-dev.cfapps.io%2Fapp.5587cb42c0dab33a2ab7.js%3A6)%0A%20%20%20%20at%20http%3A%2F%2Fadmin%3AfXzegC3N9P%40lennox-zuul-gateway-dev.cfapps.io%2Fapp.5587cb42c0dab33a2ab7.js%3A6%0A%20%20%20%20at%20forEach%20(http%3A%2F%2Fadmin%3AfXzegC3N9P%40lennox-zuul-gateway-dev.cfapps.io%2Fapp.5587cb42c0dab33a2ab7.js%3A6)%0A%20%20%20%20at%20http%3A%2F%2Fadmin%3AfXzegC3N9P%40lennox-zuul-gateway-dev.cfapps.io%2Fapp.5587cb42c0dab33a2ab7.js%3A6%0A%20%20%20%20at%20http%3A%2F%2Fadmin%3AfXzegC3N9P%40lennox-zuul-gateway-dev.cfapps.io%2Fapp.5587cb42c0dab33a2ab7.js%3A6%0A%20%20%20%20at%20invoke%20(http%3A%2F%2Fadmin%3AfXzegC3N9P%40lennox-zuul-gateway-dev.cfapps.io%2Fapp.5587cb42c0dab33a2ab7.js%3A7)%0A%20%20%20%20at%20runInvokeQueue%20(http%3A%2F%2Fadmin%3AfXzegC3N9P%40lennox-zuul-gateway-dev.cfapps.io%2Fapp.5587cb42c0dab33a2ab7.js%3A7)%0A%20%20%20%20at%20http%3A%2F%2Fadmin%3AfXzegC3N9P%40lennox-zuul-gateway-dev.cfapps.io%2Fapp.5587cb42c0dab33a2ab7.js%3A7%0A%20%20%20%20at%20forEach%20(http%3A%2F%2Fadmin%3AfXzegC3N9P%40lennox-zuul-gateway-dev.cfapps.io%2Fapp.5587cb42c0dab33a2ab7.js%3A6)%0A%20%20%20%20at%20loadModules%20(http%3A%2F%2Fadmin%3AfXzegC3N9P%40lennox-zuul-gateway-dev.cfapps.io%2Fapp.5587cb42c0dab33a2ab7.js%3A7)%0A%20%20%20%20at%20createInjector%20(http%3A%2F%2Fadmin%3AfXzegC3N9P%40lennox-zuul-gateway-dev.cfapps.io%2Fapp.5587cb42c0dab33a2ab7.js%3A7)%0A%20%20%20%20at%20http%3A%2F%2Fadmin%3AfXzegC3N9P%40lennox-zuul-gateway-dev.cfapps.io%2Fapp.5587cb42c0dab33a2ab7.js%3A6%0A%20%20%20%20at%20bootstrap%20(http%3A%2F%2Fadmin%3AfXzegC3N9P%40lennox-zuul-gateway-dev.cfapps.io%2Fapp.5587cb42c0dab33a2ab7.js%3A6)%0A%20%20%20%20at%20angularInit%20(http%3A%2F%2Fadmin%3AfXzegC3N9P%40lennox-zuul-gateway-dev.cfapps.io%2Fapp.5587cb42c0dab33a2ab7.js%3A6)%0A%20%20%20%20at%20http%3A%2F%2Fadmin%3AfXzegC3N9P%40lennox-zuul-gateway-dev.cfapps.io%2Fapp.5587cb42c0dab33a2ab7.js%3A15%0A%20%20%20%20at%20trigger%20(http%3A%2F%2Fadmin%3AfXzegC3N9P%40lennox-zuul-gateway-dev.cfapps.io%2Fapp.5587cb42c0dab33a2ab7.js%3A12)%0A%20%20%20%20at%20defaultHandlerWrapper%20(http%3A%2F%2Fadmin%3AfXzegC3N9P%40lennox-zuul-gateway-dev.cfapps.io%2Fapp.5587cb42c0dab33a2ab7.js%3A6)%0A%20%20%20%20at%20http%3A%2F%2Fadmin%3AfXzegC3N9P%40lennox-zuul-gateway-dev.cfapps.io%2Fapp.5587cb42c0dab33a2ab7.js%3A6
+[ERROR - 2016-06-14T18:31:49.506Z] Session [410bb620-325e-11e6-9580-c70dc28a2a80] - page.onError - stack:
+  (anonymous function) (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:7)
+  forEach (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:6)
+  loadModules (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:7)
+  createInjector (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:7)
+  (anonymous function) (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:6)
+  bootstrap (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:6)
+  angularInit (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:6)
+  (anonymous function) (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:15)
+  trigger (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:12)
+  defaultHandlerWrapper (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:6)
+  (anonymous function) (http://admin:fXzegC3N9P@lennox-zuul-gateway-dev.cfapps.io/app.5587cb42c0dab33a2ab7.js:6)
